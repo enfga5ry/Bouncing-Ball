@@ -1,0 +1,36 @@
+body {
+  background-color: #c3c3c3;
+}
+h1 {
+  color: #4c6ebb;
+}
+#canvas {
+  background-color: black;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+@media (min-width: 767px) {
+  #canvas {
+    width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  #canvas {
+    width: 50%;
+  }
+}
+
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
